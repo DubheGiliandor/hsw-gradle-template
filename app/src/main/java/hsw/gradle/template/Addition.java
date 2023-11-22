@@ -11,4 +11,9 @@ public class Addition {
     public double add(int a, double b){
         return a + b;
     }
+
+    // Addition von double und int
+    public double add(double a, int b){
+        return a + b;
+    }
 }
