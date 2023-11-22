@@ -15,6 +15,15 @@ public class TestDivision {
         double summe = a/b;
         Assertions.assertEquals(divison.zweiDoubleZahlen(a,b),summe, "Double und Double ist erfolgreich");
 }
+    @Test
+    public void divisionIntInt(){
+        Division divison = new Division();
+        int a = 10;
+        int b = 2;
+        int summe = a/b;
+        Assertions.assertEquals(divison.zweiDoubleZahlen(a,b),summe, "Int und Int ist erfolgreich");
+    }
+
     @AfterAll
     public void afterAll(){
         System.out.println("Test Division Ende");
