@@ -1,7 +1,5 @@
 public class Division {
 
-
-
     public int zweiIntZahlen(int a, int b){
         int ergebnis= 0;
         if(b == 0){
