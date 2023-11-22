@@ -6,4 +6,9 @@ public class Addition {
     public int add(int a, int b){
         return a + b;
     }
+
+    // Addition von int und double
+    public double add(int a, double b){
+        return a + b;
+    }
 }

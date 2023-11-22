@@ -17,6 +17,7 @@ public class AdditionTest {
         int a = 2;
         int b = 3;
         int summe = 2 + 3;
-        Assertions.assertEquals(addition.add(a, b), summe);
+        Assertions.assertEquals(addition.add(a, b), summe,
+                "Int und Int ist erfrolgreich");
     }
 }
