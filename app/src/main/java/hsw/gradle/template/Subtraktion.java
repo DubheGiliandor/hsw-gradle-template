@@ -11,4 +11,9 @@ public class Subtraktion {
     public double subtract(int a, double b){
         return a - b;
     }
+
+    // Subtraktion von double und int
+    public double subtract(double a, int b){
+        return a - b;
+    }
 }
