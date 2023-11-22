@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class AdditionTest {
 
     @BeforeAll
-    public void beforAll() {
+    public static void beforAll() {
         System.out.println("Start der Test für addition");
     }
 
@@ -53,7 +53,7 @@ public class AdditionTest {
     }
 
     @AfterAll
-    public void afterAll(){
+    public static void afterAll(){
         System.out.println("Test Addition Ende");
     }
 }
