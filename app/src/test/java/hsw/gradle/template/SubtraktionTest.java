@@ -39,6 +39,15 @@ public class SubtraktionTest {
         Assertions.assertEquals(subtract.subtract(a, b), differenz, "Subtraktion des Int vom Double erfolgreich");
     }
 
+    @Test
+    public void subtraktionDoubleDouble() {
+        Subtraktion subtract = new Subtraktion();
+        double a = 11;
+        double b = 4;
+        double differenz = a - b;
+        Assertions.assertEquals(subtract.subtract(a, b), differenz, "Subtraktion der beiden Double erfolgreich");
+    }
+
 
     @AfterAll
     public void afterAll(){
