@@ -23,6 +23,14 @@ public class TestDivision {
         int summe = a/b;
         Assertions.assertEquals(divison.zweiDoubleZahlen(a,b),summe, "Int und Int ist erfolgreich");
     }
+    @Test
+    public void divisionIntDouble(){
+        Division divison = new Division();
+        int a = 10;
+        double b = 2.5;
+        double summe = a/b;
+        Assertions.assertEquals(divison.zweiDoubleZahlen(a,b),summe, "Int und Double ist erfolgreich");
+    }
 
     @AfterAll
     public void afterAll(){
