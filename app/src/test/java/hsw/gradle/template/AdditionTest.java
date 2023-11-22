@@ -30,4 +30,14 @@ public class AdditionTest {
         Assertions.assertEquals(addition.add(a, b), summe,
                 "Int und Double ist erfrolgreich");
     }
+
+    @Test
+    public void additionDoubleInt() {
+        Addition addition = new Addition();
+        double a = 2.32;
+        int b = 3;
+        double summe = a + b;
+        Assertions.assertEquals(addition.add(a, b), summe,
+                "Double und Int ist erfrolgreich");
+    }
 }
