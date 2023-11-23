@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd0ff95-08ef-4beb-aae8-fa493c2f6b7a" name="Changes" comment="Commit 7:&#10;AppTest gelöscht und Testklasse für Division erstellt. Alle Methoden einmal getestet" />
+    <list default="true" id="2cd0ff95-08ef-4beb-aae8-fa493c2f6b7a" name="Changes" comment="Commit 6: Pulled merged Main, automatic Change of workspace.xml wird committed und gepushed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,9 +60,32 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hsw.gradle.template.App" />
+      <module name="hsw-gradle-template.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hsw.gradle.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -126,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700657326228</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit 6: Pulled merged Main, automatic Change of workspace.xml wird committed und gepushed">
+      <option name="closed" value="true" />
+      <created>1700739443844</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700739443844</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -138,6 +171,7 @@
     <MESSAGE value="Commit 4:&#10;Prototyp Division" />
     <MESSAGE value="Commit 5:&#10;Kleine Anpassung zum Debuggen diverser &quot;Related Problems&quot; der anderen Klassen in der Main-Methode der KLasse &quot;App&quot;" />
     <MESSAGE value="Commit 7:&#10;AppTest gelöscht und Testklasse für Division erstellt. Alle Methoden einmal getestet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 7:&#10;AppTest gelöscht und Testklasse für Division erstellt. Alle Methoden einmal getestet" />
+    <MESSAGE value="Commit 6: Pulled merged Main, automatic Change of workspace.xml wird committed und gepushed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 6: Pulled merged Main, automatic Change of workspace.xml wird committed und gepushed" />
   </component>
 </project>
