@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd0ff95-08ef-4beb-aae8-fa493c2f6b7a" name="Changes" comment="Commit 5:&#10;Kleine Anpassung zum Debuggen diverser &quot;Related Problems&quot; der anderen Klassen in der Main-Methode der KLasse &quot;App&quot;" />
+    <list default="true" id="2cd0ff95-08ef-4beb-aae8-fa493c2f6b7a" name="Changes" comment="Commit 7:&#10;AppTest gelöscht und Testklasse für Division erstellt. Alle Methoden einmal getestet" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +18,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -54,7 +57,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "joshua",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
@@ -134,6 +137,7 @@
     <MESSAGE value="Commit 3:&#10;Prototyp Multiplikation" />
     <MESSAGE value="Commit 4:&#10;Prototyp Division" />
     <MESSAGE value="Commit 5:&#10;Kleine Anpassung zum Debuggen diverser &quot;Related Problems&quot; der anderen Klassen in der Main-Methode der KLasse &quot;App&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 5:&#10;Kleine Anpassung zum Debuggen diverser &quot;Related Problems&quot; der anderen Klassen in der Main-Methode der KLasse &quot;App&quot;" />
+    <MESSAGE value="Commit 7:&#10;AppTest gelöscht und Testklasse für Division erstellt. Alle Methoden einmal getestet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 7:&#10;AppTest gelöscht und Testklasse für Division erstellt. Alle Methoden einmal getestet" />
   </component>
 </project>
