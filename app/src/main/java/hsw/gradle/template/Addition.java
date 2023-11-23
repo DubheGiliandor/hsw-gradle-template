@@ -1,16 +1,23 @@
 package hsw.gradle.template;
 
 public class Addition {
-    public int add(int a, int b) {
+
+    // Addition von zwei Ints
+    public int add(int a, int b){
         return a + b;
     }
-    public double add(int a, double b) {
+
+    // Addition von int und double
+    public double add(int a, double b){
         return a + b;
     }
-    public double add(double a, int b) {
+
+    // Addition von double und int
+    public double add(double a, int b){
         return a + b;
     }
-    public double add(double a, double b) {
+
+    public double add(double a, double b){
         return a + b;
     }
 }
