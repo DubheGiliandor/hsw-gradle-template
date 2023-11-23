@@ -1,9 +1,9 @@
 package hsw.gradle.template;
 
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SubtraktionTest {
 
@@ -17,8 +17,8 @@ public class SubtraktionTest {
         Subtraktion subtract = new Subtraktion();
         int a = 11;
         int b = 4;
-        int differenz = a - b;
-        Assertions.assertEquals(subtract.subtract(a, b), differenz, "Subtraktion der beiden Int erfolgreich");
+        int c = 7;
+        assertEquals(subtract.subtract(a,b), c);
     }
 
     @Test
@@ -26,8 +26,8 @@ public class SubtraktionTest {
         Subtraktion subtract = new Subtraktion();
         int a = 11;
         double b = 4;
-        double differenz = a - b;
-        Assertions.assertEquals(subtract.subtract(a, b), differenz, "Subtraktion des Doubles vom Int erfolgreich");
+        double c = 7;
+        assertEquals(subtract.subtract(a,b),c);
     }
 
     @Test
@@ -35,8 +35,8 @@ public class SubtraktionTest {
         Subtraktion subtract = new Subtraktion();
         double a = 11;
         int b = 4;
-        double differenz = a - b;
-        Assertions.assertEquals(subtract.subtract(a, b), differenz, "Subtraktion des Int vom Double erfolgreich");
+        double c = 7;
+        assertEquals(subtract.subtract(a,b),c);
     }
 
     @Test
@@ -44,13 +44,13 @@ public class SubtraktionTest {
         Subtraktion subtract = new Subtraktion();
         double a = 11;
         double b = 4;
-        double differenz = a - b;
-        Assertions.assertEquals(subtract.subtract(a, b), differenz, "Subtraktion der beiden Double erfolgreich");
+        double c = 7;
+        assertEquals(subtract.subtract(a,b),c);
     }
 
 
     @AfterAll
-    public void afterAll(){
+    public static void afterAll(){
         System.out.println("Ende des Tests für Subtraktion");
     }
 }
