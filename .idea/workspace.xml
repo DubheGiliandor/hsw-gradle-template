@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd0ff95-08ef-4beb-aae8-fa493c2f6b7a" name="Changes" comment="Commit 6: Pulled merged Main, automatic Change of workspace.xml wird committed und gepushed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2cd0ff95-08ef-4beb-aae8-fa493c2f6b7a" name="Changes" comment="Commit 7: Probleme beim Ausführen gepatched" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700739443844</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit 7: Probleme beim Ausführen gepatched">
+      <option name="closed" value="true" />
+      <created>1700740036761</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700740036761</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,6 +178,7 @@
     <MESSAGE value="Commit 5:&#10;Kleine Anpassung zum Debuggen diverser &quot;Related Problems&quot; der anderen Klassen in der Main-Methode der KLasse &quot;App&quot;" />
     <MESSAGE value="Commit 7:&#10;AppTest gelöscht und Testklasse für Division erstellt. Alle Methoden einmal getestet" />
     <MESSAGE value="Commit 6: Pulled merged Main, automatic Change of workspace.xml wird committed und gepushed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 6: Pulled merged Main, automatic Change of workspace.xml wird committed und gepushed" />
+    <MESSAGE value="Commit 7: Probleme beim Ausführen gepatched" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 7: Probleme beim Ausführen gepatched" />
   </component>
 </project>
