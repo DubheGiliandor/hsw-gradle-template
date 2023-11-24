@@ -6,7 +6,6 @@ package hsw.gradle.template;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello and welcome!");
-        System.out.println("Test");
         Addition add = new Addition();
         Subtraktion subtract = new Subtraktion();
         Multiplikation multiply = new Multiplikation();
