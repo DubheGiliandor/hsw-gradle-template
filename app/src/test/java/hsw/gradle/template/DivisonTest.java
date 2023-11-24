@@ -3,7 +3,7 @@ package hsw.gradle.template;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-class DivisonTest {
+public class DivisonTest {
     @Test void divisionIntInt() throws Exception {
         Division div = new Division();
         int a = 15;
