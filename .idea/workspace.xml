@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd0ff95-08ef-4beb-aae8-fa493c2f6b7a" name="Changes" comment="Commit 7: Probleme beim Ausführen gepatched">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/hsw/gradle/template/MultiplikationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2cd0ff95-08ef-4beb-aae8-fa493c2f6b7a" name="Changes" comment="Hinzufügen der Klasse MultiplikationTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/hsw/gradle/template/MultiplikationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/hsw/gradle/template/MultiplikationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.MultiplikationTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hsw.gradle.template.App" />
       <module name="hsw-gradle-template.app.main" />
@@ -87,8 +85,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultiplikationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;hsw.gradle.template.MultiplikationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MultiplikationTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -174,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700740036761</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Hinzufügen der Klasse MultiplikationTest">
+      <created>1700811286235</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700811286235</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +240,7 @@
     <MESSAGE value="Commit 7:&#10;AppTest gelöscht und Testklasse für Division erstellt. Alle Methoden einmal getestet" />
     <MESSAGE value="Commit 6: Pulled merged Main, automatic Change of workspace.xml wird committed und gepushed" />
     <MESSAGE value="Commit 7: Probleme beim Ausführen gepatched" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 7: Probleme beim Ausführen gepatched" />
+    <MESSAGE value="Hinzufügen der Klasse MultiplikationTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hinzufügen der Klasse MultiplikationTest" />
   </component>
 </project>
