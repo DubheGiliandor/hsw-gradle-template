@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cd0ff95-08ef-4beb-aae8-fa493c2f6b7a" name="Changes" comment="Commit 7: Probleme beim Ausführen gepatched">
+    <list default="true" id="2cd0ff95-08ef-4beb-aae8-fa493c2f6b7a" name="Changes" comment="Commit 8:&#10;Fehler in der Klasse SubtraktionTest gefixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +73,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.SubtraktionTest.subtraktionIntInt">
+  <component name="RunManager" selected="Gradle.SubtraktionTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hsw.gradle.template.App" />
       <module name="hsw-gradle-template.app.main" />
@@ -161,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SubtraktionTest.subtraktionIntInt" />
         <item itemvalue="Gradle.SubtraktionTest" />
+        <item itemvalue="Gradle.SubtraktionTest.subtraktionIntInt" />
         <item itemvalue="Gradle.AdditionTest" />
         <item itemvalue="Application.App" />
       </list>
@@ -257,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700740286127</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commit 8:&#10;Fehler in der Klasse SubtraktionTest gefixed">
+      <option name="closed" value="true" />
+      <created>1700763116639</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700763116639</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -271,6 +279,7 @@
     <MESSAGE value="Commit 7:&#10;AppTest gelöscht und Testklasse für Division erstellt. Alle Methoden einmal getestet" />
     <MESSAGE value="Commit 6: Pulled merged Main, automatic Change of workspace.xml wird committed und gepushed" />
     <MESSAGE value="Commit 7: Probleme beim Ausführen gepatched" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 7: Probleme beim Ausführen gepatched" />
+    <MESSAGE value="Commit 8:&#10;Fehler in der Klasse SubtraktionTest gefixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 8:&#10;Fehler in der Klasse SubtraktionTest gefixed" />
   </component>
 </project>
